@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz para programadores</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -26,13 +27,13 @@
                 <label for="p1a">Python</label>
 
                 <input type="radio" value="HTML" id="p1b" name="pergunta1">
-                <label for="p1b">Python</label>
+                <label for="p1b">HTML</label>
 
                 <input type="radio" value="Ruby" id="p1c" name="pergunta1">
-                <label for="p1c">Python</label>
+                <label for="p1c">Ruby</label>
 
                 <input type="radio" value="JavaScript" id="p1d" name="pergunta1">
-                <label for="p1d">Python</label>
+                <label for="p1d">JavaScript</label>
             </form>
         </section>
         <!--Pergunta 2: Texto-->
@@ -87,10 +88,10 @@
             <h2>Pergunta 7: Selecione p atributo do input que define o seu tipo:</h2>
             <form>
                 <select name="pergunta7" id="p7">
-                    <option value="id"></option>
-                    <option value="placeholder"></option>
-                    <option value="type"></option>
-                    <option value="password"></option>
+                    <option value="id">id</option>
+                    <option value="placeholder">placeholder</option>
+                    <option value="type">type</option>
+                    <option value="password">password</option>
                 </select>
             </form>
         </section>
@@ -144,7 +145,7 @@
             <h2>Verifique suas respostas</h2>
             <details>
                 <summary>Clique aqui para ver as respostas</summary>
-                <ul>
+                <ol>
                     <li>HTML</li>
                     <li>Domínio</li>
                     <li>nag#iror/45</li>
@@ -153,7 +154,7 @@
                     <li>Arquivo deve ter extensão .html</li>
                     <li>type</li>
                     <li>Java</li>
-                </ul>
+                </ol>
             </details>
         </section>
         <!--Formulário-->
@@ -166,7 +167,7 @@
                     <input type="text" id="name" name="name"><br>
                     <label for="email">E-mail</label>
                     <input type="email" id="email" name="email">
-                    <label for="comentario"></label><br>
+                    <label for="comentario">comentário</label><br>
                     <textarea name="comentario" id="comentario" rows="6" cols="30" placeholder="Digite seu comentario aqui..."></textarea><br>
                     <button onclick="alert('FEEDBACK ENVIADO')">Envie o feedback</button>
                 </fieldset>
@@ -174,7 +175,7 @@
         </section>
     </main>
     <footer>
-        <p>&copy; Quiz de programação. Todos os direitos reservados. 03/09/2025</p>
+        <p class="paragrafo-footer">&copy; Quiz de programação. Desenvolvido por Reinaldo M.</p>
     </footer>
 </body>
 </html>
