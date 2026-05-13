@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+/*
+Reset básico, remove margens automáticas do navegador e ajuda no controle do layout.
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /*Altura total da tela*/
+    height: 100vh;
+
+    /*Centraliza tudo*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /*Cor de fundo escolhida para destacar os azuis.*/
+    background-color: #0f172a;
+
+    /*Fonte principal do site*/
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    text-align: center;
+}
+
+h1{
+    font-size: 5rem;
+    font-weight: 700;
+    background: linear-gradient(90deg,
+        #38bdf8,
+        #60a5fa,
+        #2563eb,
+        #38bdf8);
+
+    /*Faz o gradiente aparecer apenas no texto*/
+    background-size: 300%;
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+     /*Animação*/
+    animation: onda 5s infinite linear;
+}
+
+/*Move o gradiente horizontalmente. Cria o efeito de onda/luz.*/
+@keyframes onda{
+    0%{
+        background-position: 0%;
+    }
+
+    100%{
+        background-position: 300%;
+    }
+}
+
+h2{
+    margin-top: 10px;
+    color: #94a3b8;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.linha{
+    width: 180px;
+    height: 1px;
+
+    background: rgba(255,255,255,0.2);
+    margin: 20px auto 0 auto;
+}
