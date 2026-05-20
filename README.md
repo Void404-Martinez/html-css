@@ -1,6 +1,6 @@
 # 📚 HTML & CSS Studies
 
-Repositório criado para praticar e aprender HTML5 e CSS3 do zero.
+Repositório criado para praticar e aprender HTML5 e CSS3.
 
 Aqui você encontrará:
 
